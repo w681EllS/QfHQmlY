@@ -1,4 +1,3 @@
 *.sh text eol=lf
 /detox-cli/cli.js text eol=lf
 /detox/local-cli/cli.js text eol=lf
-/generation/index.js text eol=lf

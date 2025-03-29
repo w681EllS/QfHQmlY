@@ -8,7 +8,6 @@ People who perform effectively in crises and recover well afterward tend to have
 
 When you find yourself feeling overwhelmed by everyday trials, tell yourself you can influence what happens to you. Tell yourself there is meaningful purpose here, and repeat over and over that you can learn from this ordeal. Even if you don’t entirely believe it, your brain is listening.
 
-Nobody in the first week of a foreign-language class believes comprehension will come, but it happens anyway, eventually, with enough practice.
 
 2. Get to know your neighbors:
 

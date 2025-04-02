@@ -1,2 +1,1 @@
-*.cfn linguist-language=YAML
 *.tfplan linguist-language=JSON

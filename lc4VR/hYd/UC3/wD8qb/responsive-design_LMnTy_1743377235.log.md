@@ -3,7 +3,6 @@
 ## 2.4.0
 
   - conversion LESS code to SCSS;
-  - migration to GULP from GRUNT;
   - update of BOWER and NPM modules to the last current versions;
   - integration of LIBSASS module for a fast PRE processor compiling;
   - update of file directory;

@@ -1,0 +1,31 @@
+# Documentation http://goreleaser.com
+before:
+  hooks:
+    - make assets/dist
+    - go install github.com/gobuffalo/packr/v2/packr2@latest
+builds:
+  - main: main.go
+    goos:
+      - linux
+    goarch:
+      - amd64
+      - 386
+      - arm64
+    ldflags:
+      - -extldflags "-static" -s -w -X "main.version={{.Version}}" -X "main.commit={{.Commit}}" -X "main.date={{.Date}}"
+    hooks:
+      pre: packr2
+      post: packr2 clean
+checksum:
+  name_template: 'checksums.txt'
+snapshot:
+  name_template: "{{ .Tag }}-next"
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+release:
+  draft: true
+  mode: append

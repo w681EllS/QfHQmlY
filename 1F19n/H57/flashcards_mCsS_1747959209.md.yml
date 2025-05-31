@@ -23,4 +23,3 @@ coverage:
         # BUG: our coverage fluctuates, so codecov marks this as a build failure (#12227)
         # stop codecov from failing CI until this is fixed
         # https://docs.codecov.com/docs/commit-status#informational
-        informational: true

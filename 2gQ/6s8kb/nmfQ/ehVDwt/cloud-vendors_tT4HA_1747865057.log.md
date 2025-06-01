@@ -3,7 +3,6 @@
 **This project is not yet set up to accept external contributions.**
 
 ## Contributor License Agreement
-
 Before we can accept your pull requests you'll need to sign a Contributor
 License Agreement (CLA):
 

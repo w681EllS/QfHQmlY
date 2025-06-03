@@ -11,7 +11,6 @@ module.exports = {
       regExp: /^(?:feat|add):/i,
     },
     {
-      name: 'Bugfixes',
       regExp: /^fix:/i,
     },
     {

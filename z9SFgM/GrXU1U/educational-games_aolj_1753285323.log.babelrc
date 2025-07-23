@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "targets": {
+          "browsers": ["Explorer 11"]
+        },
+        "corejs": "2",
+        "modules": false
+      }
+    ]
+  ]
+}
